@@ -51,16 +51,3 @@ public class Empleado {
         this.salario = salario;
     }
 }
-
-class PruebaEmpleado{
-    public static void main(String[] args) {
-        Empleado empleadoA = new Empleado();
-        Empleado empleadoB = new Empleado();
-        
-        empleadoA.setSalario(400);
-        empleadoB.setSalario(300);
-        
-        
-        
-    }
-}
