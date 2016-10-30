@@ -20,7 +20,8 @@ public class Empleado {
         this.salario = salario;
     }
 
-    Empleado() {
+    public Empleado() {
+	this(null,null,0.0);
     }
     
     public String toString() {
