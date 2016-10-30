@@ -18,7 +18,7 @@ public class Persona {
     public String estado;
 
     public void respirar() {
-        estado = "respirando";
+        this.estado = "respirando";
     }
 
     protected void caminar() {
